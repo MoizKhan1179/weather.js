@@ -23,6 +23,9 @@ function weatherInfo(){
   document.querySelector('#low').innerHTML=`L ${response.data.current.pressure_mb}°C`
   document.querySelector('#img').src = `https${response.data.current.condition.icon}`
   document.querySelector('#condition').innerHTML=`Weather Condition:${response.data.current.condition.text}`
+   document.querySelector('#pressure').innerHTML=`Pressure ${response.data.current.pressure_in}ATM`
+  document.querySelector('#windKph').innerHTML=`WindKPH ${response.data.current.wind_kph}KPH`
+  document.querySelector('#prec').innerHTML=`Precitipation ${response.data.current.precip_in}`
 })
 
 .catch(function (error) {
