@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}.mainForm{
+    padding-left: 40%;
+}
+
+.bkground{
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#name{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#tempF{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#condition{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#humidity{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#winDir{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#high{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#low{ 
+    margin-top: 15px;
+    margin-bottom: 25px;}
+#location{
+     margin-top: 15px;
+    margin-bottom: 25px;}
+#windKph{
+     margin-top: 15px;
+    margin-bottom: 25px;}
+#pressure{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#prec{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+#currentTemp{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.form{
+    float: right;
+}
+
+#img{
+    margin-right: 25px;
+}
