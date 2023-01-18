@@ -13,19 +13,16 @@ function weatherInfo(){
 .then(function (response) {
   // handle success
   console.log(response);
-  document.querySelector('#name').innerHTML=`Country  ${response.data.location.country}`
-  document.querySelector('#location').innerHTML=`Region  ${response.data.location.region}`
-  document.querySelector('#currentTemp').innerHTML=`Temperature  ${response.data.current.temp_c}°C`
-  document.querySelector('#tempF').innerHTML=`Temperature  ${response.data.current.temp_f}°F`
-  document.querySelector('#humidity').innerHTML=`Humidity  ${response.data.current.humidity}`
-  document.querySelector('#winDir').innerHTML=`Wind Direction  ${response.data.current.wind_dir}`
+  document.querySelector('#name').innerHTML=`${response.data.location.country}`
+  document.querySelector('#location').innerHTML=`${response.data.location.region}`
+  document.querySelector('#currentTemp').innerHTML=`${response.data.current.temp_c}°C`
+  document.querySelector('#tempF').innerHTML=`${response.data.current.temp_f}°F`
+  document.querySelector('#humidity').innerHTML=`${response.data.current.humidity}`
+  document.querySelector('#winDir').innerHTML=`Dir : ${response.data.current.wind_dir}`
   document.querySelector('#high').innerHTML=`H  ${response.data.current.pressure_in}°C`
   document.querySelector('#low').innerHTML=`L ${response.data.current.pressure_mb}°C`
-  document.querySelector('#img').src = `https${response.data.current.condition.icon}`
-  document.querySelector('#condition').innerHTML=`Weather Condition:${response.data.current.condition.text}`
-   document.querySelector('#pressure').innerHTML=`Pressure ${response.data.current.pressure_in}ATM`
-  document.querySelector('#windKph').innerHTML=`WindKPH ${response.data.current.wind_kph}KPH`
-  document.querySelector('#prec').innerHTML=`Precitipation ${response.data.current.precip_in}`
+  document.querySelector('#img').src = `https:${response.data.current.condition.icon}`
+  document.querySelector('#condition').innerHTML=`${response.data.current.condition.text}`
 })
 
 .catch(function (error) {
