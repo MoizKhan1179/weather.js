@@ -23,75 +23,125 @@ body{
     background-size: cover;
 } */
 
+
+#currentTemp{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    position: fixed;
+    left: 34%;
+    top: 48%;
+    color: teal;
+}
+#tempF{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    position: fixed;
+    left: 48%;
+    top: 48%;
+    color: teal;
+}
 #name{
     margin-top: 15px;
     margin-bottom: 0px;
     margin-left: 40%;
     position: fixed;
-    top: 0px;
-    left: -90px;
+    top: 25%;
+    left: -6%;
+    font-size: 45px;
+    color: seagreen;
 }
 
 #img{
-    margin-top: 6.5%;
-    margin-left: 28%;
-    
+    margin-top: 20%;
+    margin-left: 38%;
+   
 }
 
 #location{
      margin-top: 20%;
     margin-bottom: 25px;
     position: fixed;
-    left: 35%;
-    top: -35%;
+    left: 39.5%;
+    top: -5%;
+    color: seagreen;
 }
-#tempF{
-    margin-top: 15px;
-    margin-bottom: 25px;
-    position: fixed;
-    left: 42%;
-    top: 20%;
-}
+
 #condition{
     position: fixed;
     left: 42%;
-    top: 20%;
+    top: 45%;
+    color:  teal;
 }
 #humidity{
     margin-top: 15px;
     margin-bottom: 25px;
+    position: fixed;
+    left: 49%;
+    top: 57%;
+    color:  teal;
 }
 #winDir{
     margin-top: 15px;
     margin-bottom: 25px;
+    position: fixed;
+    left: 30%;
+    top: 57%;
+    color:  teal;
 }
 #high{
     margin-top: 15px;
     margin-bottom: 25px;
+    position: fixed;
+    left: 30%;
+    top: 65%;
+    color:  teal;
 }
 #low{ 
     margin-top: 15px;
-    margin-bottom: 25px;}
+    margin-bottom: 25px;
+    position: fixed;
+    left: 49%;
+    top: 65%;
+    color:  teal;
+}
 #windKph{
      margin-top: 15px;
-    margin-bottom: 25px;}
+    margin-bottom: 25px;
+    position: fixed;
+    left: 30%;
+    top: 72%;
+    color:  teal;
+}
 #pressure{
     margin-top: 15px;
     margin-bottom: 25px;
+    position: fixed;
+    left: 49%;
+    top: 72%;
+    color:  teal;
 }
 #prec{
     margin-top: 15px;
     margin-bottom: 25px;
-}
-#currentTemp{
-    margin-top: 15px;
-    margin-bottom: 25px;
     position: fixed;
-    left: 35%;
-    top: 20%;
+    left: 42%;
+    top: 79%;
+    color:  teal;
 }
 
 .form{
-    float: right;
+    position: fixed;
+    left: 34.2%;
+    top: 20%;
+}
+.box{
+    color:blue;
+    background-color: burlywood;
+    border-color: rgb(107, 85, 85);
+}
+.box:hover{
+    color: rgb(212, 210, 57);
+    background-color: cadetblue;
+    
 }
 
